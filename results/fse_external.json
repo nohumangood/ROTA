@@ -1,0 +1,124 @@
+{
+ "majority_class": "correct",
+ "heldout": {
+  "INVALIDATOR": {
+   "n": 225,
+   "P": 0.704,
+   "R": 0.198,
+   "F1": 0.309,
+   "Acc": 0.622,
+   "BalAcc": 0.568,
+   "MCC": 0.207,
+   "McNemar_vs_ROTA": 0.0,
+   "b_base>rota": 27,
+   "c_rota>base": 69
+  },
+  "ODS": {
+   "n": 225,
+   "P": 0.647,
+   "R": 0.115,
+   "F1": 0.195,
+   "Acc": 0.596,
+   "BalAcc": 0.534,
+   "MCC": 0.127,
+   "McNemar_vs_ROTA": 0.0,
+   "b_base>rota": 26,
+   "c_rota>base": 74
+  },
+  "Majority": {
+   "n": 225,
+   "P": 0.0,
+   "R": 0.0,
+   "F1": 0.0,
+   "Acc": 0.573,
+   "BalAcc": 0.5,
+   "MCC": 0.0,
+   "McNemar_vs_ROTA": 0.0,
+   "b_base>rota": 27,
+   "c_rota>base": 80
+  },
+  "ROTA(decided)": {
+   "n": 217,
+   "P": 0.748,
+   "R": 0.86,
+   "F1": 0.8,
+   "Acc": 0.816,
+   "BalAcc": 0.821,
+   "MCC": 0.636
+  }
+ },
+ "logo_balanced": {
+  "rlfixer": {
+   "n": 304,
+   "pct_incorrect": 0.888,
+   "ROTA": {
+    "Acc": 0.907,
+    "BalAcc": 0.815,
+    "F1": 0.947
+   },
+   "INVALIDATOR": {
+    "Acc": 0.299,
+    "BalAcc": 0.593,
+    "F1": 0.353
+   },
+   "ODS": {
+    "Acc": 0.26,
+    "BalAcc": 0.57,
+    "F1": 0.29
+   },
+   "Majority": {
+    "Acc": 0.112,
+    "BalAcc": 0.5,
+    "F1": 0.0
+   }
+  },
+  "arodnap": {
+   "n": 255,
+   "pct_incorrect": 0.373,
+   "ROTA": {
+    "Acc": 0.849,
+    "BalAcc": 0.862,
+    "F1": 0.814
+   },
+   "INVALIDATOR": {
+    "Acc": 0.635,
+    "BalAcc": 0.545,
+    "F1": 0.279
+   },
+   "ODS": {
+    "Acc": 0.655,
+    "BalAcc": 0.56,
+    "F1": 0.29
+   },
+   "Majority": {
+    "Acc": 0.627,
+    "BalAcc": 0.5,
+    "F1": 0.0
+   }
+  },
+  "amur": {
+   "n": 303,
+   "pct_incorrect": 0.059,
+   "ROTA": {
+    "Acc": 0.72,
+    "BalAcc": 0.591,
+    "F1": 0.163
+   },
+   "INVALIDATOR": {
+    "Acc": 0.908,
+    "BalAcc": 0.769,
+    "F1": 0.44
+   },
+   "ODS": {
+    "Acc": 0.947,
+    "BalAcc": 0.79,
+    "F1": 0.579
+   },
+   "Majority": {
+    "Acc": 0.941,
+    "BalAcc": 0.5,
+    "F1": 0.0
+   }
+  }
+ }
+}

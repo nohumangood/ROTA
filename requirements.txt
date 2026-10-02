@@ -1,0 +1,8 @@
+# ROTA reproduction dependencies.
+#
+# Python 3.9+ (developed and verified on CPython 3.12).
+# ROTA parses Java method snippets with tree-sitter; there are NO other
+# third-party dependencies, no network access, no API keys, and no language
+# model anywhere in the analysis or the evaluation.
+tree-sitter>=0.23,<0.26
+tree-sitter-java>=0.23,<0.25

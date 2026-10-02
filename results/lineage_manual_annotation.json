@@ -1,0 +1,33 @@
+{
+ "method": "Author adjudication by reading each method pair (full code semantics: variable roles, wrapper chains, exception structure, allocation sources). Independent of ROTA's allocation-text score. Each case: does ROTA's forward map agree with the semantic correspondence a human reads from the code?",
+ "sample": "58 ambiguous (multi-obligation, non-name-forced) cases, hardest-first (symbol set differs across versions or resource counts differ), drawn from the 523 ambiguous cases with a fixed seed.",
+ "labels": {
+  "rlfixer_516": "agree", "arodnap_274": "agree", "arodnap_1120": "agree",
+  "arodnap_539": "judgment:type-changing-output-rename", "rlfixer_232": "agree:rename-inline-to-named",
+  "arodnap_253": "agree", "arodnap_494": "judgment:twr-discharge-drop", "amur_1061": "agree",
+  "rlfixer_518": "agree:wrapper-chain-to-named", "rlfixer_253": "agree", "rlfixer_513": "agree",
+  "rlfixer_548": "agree:rename-br-to-reader", "arodnap_182": "agree", "rlfixer_1105": "agree",
+  "amur_2": "agree", "arodnap_9": "agree:full-rewrite", "amur_1038": "agree", "amur_439": "agree",
+  "rlfixer_1127": "agree:duplicated", "rlfixer_180": "agree:reindex", "arodnap_871": "judgment:twr-discharge-drop",
+  "arodnap_627": "agree:wrapper-extract", "arodnap_81": "agree:sibling-drop", "arodnap_362": "agree",
+  "amur_670": "agree:drop-removed", "rlfixer_785": "agree:duplicated", "amur_579": "agree",
+  "rlfixer_810": "agree:wrapper-rename", "arodnap_928": "agree", "amur_841": "agree:reindex-drop-dup",
+  "arodnap_1049": "agree", "rlfixer_806": "agree", "rlfixer_1042": "agree:rename-by-symbol",
+  "arodnap_429": "agree", "amur_253": "agree", "rlfixer_1130": "agree", "amur_257": "agree:inline-to-named",
+  "arodnap_994": "judgment:twr-discharge-drop", "amur_965": "judgment:twr-discharge-drop",
+  "amur_66": "agree", "amur_797": "judgment:twr-discharge-drop", "amur_1015": "agree",
+  "amur_871": "judgment:twr-discharge-drop", "rlfixer_807": "agree", "rlfixer_718": "agree",
+  "rlfixer_65": "judgment:twr-discharge-drop", "amur_814": "agree", "amur_539": "judgment:type-changing-output-rename",
+  "amur_22": "agree", "amur_410": "agree:added-buggy-empty", "amur_535": "agree",
+  "amur_522": "judgment:order-indexed-identical-siblings", "arodnap_465": "agree",
+  "arodnap_1105": "agree", "amur_928": "agree", "amur_274": "agree:inline-to-named-drop",
+  "amur_783": "agree:added-socket", "amur_694": "agree"
+ },
+ "summary": {
+  "n_cases": 58,
+  "agree": 48,
+  "judgment_consistent": 10,
+  "mispairing": 0,
+  "note": "No case pairs two semantically unrelated resources. 'judgment_consistent' cases are try-with-resources discharges (the obligation leaves the tracked set, so there is no patched obligation to match) or renames across a type change; ROTA resolves each consistently with the code. The sample skews toward symbol-preserving multi-resource cases; pure disjoint-symbol renames are measured separately by the allocation-text reference (40/48 = 0.833)."
+ }
+}

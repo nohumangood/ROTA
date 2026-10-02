@@ -1,0 +1,110 @@
+{
+ "summary": {
+  "hard_matches_rename_rebind": {
+   "n": 48,
+   "agree": 40,
+   "accuracy": 0.8333
+  },
+  "split": {
+   "n": 35,
+   "agree": 2,
+   "accuracy": 0.0571
+  },
+  "merge": {
+   "n": 28,
+   "agree": 1,
+   "accuracy": 0.0357
+  },
+  "all_hard": {
+   "n": 111,
+   "agree": 43,
+   "accuracy": 0.3874
+  }
+ },
+ "examples": [
+  [
+   "rename",
+   "arodnap_22",
+   "newBackupResponse(backupUri,NetworkAddressUtils.getConnectHost(ServiceType.MASTER_RPC))",
+   "newBackupResponse(backupUri,NetworkAddressUtils.getConnectHost(ServiceType.MASTER_RPC))",
+   true
+  ],
+  [
+   "rename",
+   "rlfixer_75",
+   "newFileInputStream(configFile)",
+   "newFileInputStream(configFile)",
+   true
+  ],
+  [
+   "split",
+   "rlfixer_116",
+   "newIOUtils.NullOutputStream()",
+   "newDataOutputStream(newIOUtils.NullOutputStream())",
+   false
+  ],
+  [
+   "split",
+   "arodnap_116",
+   "newIOUtils.NullOutputStream()",
+   "newDataOutputStream(newIOUtils.NullOutputStream())",
+   false
+  ],
+  [
+   "rename",
+   "arodnap_172",
+   "newFileInputStream(file)",
+   "newFileInputStream(file)",
+   false
+  ],
+  [
+   "rename",
+   "arodnap_172",
+   "newFileInputStream(file)",
+   "newFileInputStream(file)",
+   true
+  ],
+  [
+   "rename",
+   "arodnap_185",
+   "newFloat(1)",
+   "newFloat(1)",
+   false
+  ],
+  [
+   "split",
+   "rlfixer_202",
+   "newBlobStoreBackedInputStreamImpl(blobStore,bucket,key,",
+   "newBlobStoreBackedInputStreamImpl(blobStore,bucket,key,versionCheck,index.getDataObjectLength(),readBufferSize)",
+   false
+  ],
+  [
+   "split",
+   "arodnap_202",
+   "newBlobStoreBackedInputStreamImpl(blobStore,bucket,key,",
+   "newBlobStoreBackedInputStreamImpl(blobStore,bucket,key,versionCheck,index.getDataObjectLength(),readBufferSize)",
+   false
+  ],
+  [
+   "rename",
+   "rlfixer_253",
+   "newAEThread2(\"TiVo:CtrlListener\",true)",
+   "newAEThread2(\"TiVo:CtrlListener\",true)",
+   true
+  ],
+  [
+   "rename",
+   "arodnap_253",
+   "newAEThread2(\"TiVo:CtrlListener\",true)",
+   "newAEThread2(\"TiVo:CtrlListener\",true)",
+   true
+  ],
+  [
+   "split",
+   "arodnap_349",
+   "newFile(javaHome+sep+\"lib\"+sep+\"security\"+sep+",
+   "newFile(javaHome+sep+\"lib\"+sep+\"security\"+sep+\"cacerts\")",
+   false
+  ]
+ ]
+}

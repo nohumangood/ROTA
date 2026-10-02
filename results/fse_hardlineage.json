@@ -1,0 +1,56 @@
+{
+ "heldout": {
+  "n": 42,
+  "pct_incorrect": 0.31,
+  "ROTA": {
+   "acc": 0.8333,
+   "decided": 42
+  },
+  "independent_diff": {
+   "acc": 0.8095,
+   "decided": 42
+  },
+  "patch_only": {
+   "acc": 0.881,
+   "decided": 42
+  },
+  "warning_removal": {
+   "acc": 0.8095,
+   "decided": 42
+  },
+  "unary_patched_only": {
+   "acc": 0.7381,
+   "decided": 42
+  },
+  "mcnemar_ROTA_vs_idiff": 1.0,
+  "mcnemar_ROTA_vs_polc": 0.5,
+  "mcnemar_ROTA_vs_wrem": 1.0
+ },
+ "full": {
+  "n": 132,
+  "pct_incorrect": 0.258,
+  "ROTA": {
+   "acc": 0.8333,
+   "decided": 132
+  },
+  "independent_diff": {
+   "acc": 0.8258,
+   "decided": 132
+  },
+  "patch_only": {
+   "acc": 0.8485,
+   "decided": 132
+  },
+  "warning_removal": {
+   "acc": 0.8258,
+   "decided": 132
+  },
+  "unary_patched_only": {
+   "acc": 0.6439,
+   "decided": 132
+  },
+  "mcnemar_ROTA_vs_idiff": 1.0,
+  "mcnemar_ROTA_vs_polc": 0.5,
+  "mcnemar_ROTA_vs_wrem": 1.0
+ }
+}

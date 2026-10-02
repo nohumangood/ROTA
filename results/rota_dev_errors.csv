@@ -1,0 +1,134 @@
+patch_id,project,tool,gt,pred,error_type,reason,failure_family,resource_type
+arodnap_163,apache/lucene,arodnap,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.Reader
+rlfixer_181,apache/lucene,rlfixer,incorrect,correct,FN,obligation refinement holds,partial_fix,java.io.DataOutputStream
+rlfixer_193,apache/phoenix,rlfixer,incorrect,correct,FN,obligation refinement holds,partial_fix,java.sql.Connection
+rlfixer_212,apache/shardingsphere,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.sql.Connection
+arodnap_212,apache/shardingsphere,arodnap,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.sql.Connection
+rlfixer_247,bazelbuild/bazel,rlfixer,incorrect,correct,FN,obligation refinement holds,remove_finally,java.io.InputStream
+arodnap_247,bazelbuild/bazel,arodnap,incorrect,correct,FN,obligation refinement holds,remove_finally,java.io.InputStream
+rlfixer_268,cdapio/cdap,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.io.FileReader
+arodnap_268,cdapio/cdap,arodnap,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.io.FileReader
+arodnap_291,Col-E/Recaf,arodnap,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.util.zip.ZipFile
+rlfixer_346,dbeaver/dbeaver,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.util.stream.Stream
+rlfixer_365,dragonwell-project/dragonwell8,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,sun.java2d.DisposerRecord
+arodnap_365,dragonwell-project/dragonwell8,arodnap,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,sun.java2d.DisposerRecord
+rlfixer_366,dragonwell-project/dragonwell8,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,com.sun.jndi.ldap.LdapClient
+arodnap_366,dragonwell-project/dragonwell8,arodnap,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,com.sun.jndi.ldap.LdapClient
+rlfixer_395,elastic/elasticsearch,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.io.InputStream
+rlfixer_487,hazelcast/hazelcast,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.util.concurrent.ExecutorService
+rlfixer_488,hazelcast/hazelcast,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.util.concurrent.ExecutorService
+rlfixer_489,hazelcast/hazelcast,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,remove_close,java.nio.channels.Selector
+arodnap_489,hazelcast/hazelcast,arodnap,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.nio.channels.Selector
+rlfixer_494,hibernate/hibernate-orm,rlfixer,incorrect,correct,FN,obligation refinement holds,partial_fix,java.sql.Statement
+arodnap_494,hibernate/hibernate-orm,arodnap,incorrect,correct,FN,obligation refinement holds,partial_fix,java.sql.Statement
+arodnap_510,hyphanet/fred,arodnap,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.OutputStream
+rlfixer_513,hyphanet/fred,rlfixer,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.InputStream
+arodnap_513,hyphanet/fred,arodnap,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.InputStream
+arodnap_516,hyphanet/fred,arodnap,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+arodnap_523,hyphanet/fred,arodnap,incorrect,correct,FN,UNPARSED,remove_finally,java.io.DataInputStream
+rlfixer_572,jenkinsci/jenkins,rlfixer,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.FileInputStream
+arodnap_572,jenkinsci/jenkins,arodnap,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.FileInputStream
+arodnap_591,jenkinsci/jenkins,arodnap,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.io.InputStream
+arodnap_592,jenkinsci/jenkins,arodnap,incorrect,correct,FN,UNPARSED,remove_finally,java.io.BufferedReader
+rlfixer_622,JetBrains/JetBrainsRuntime,rlfixer,incorrect,correct,FN,obligation refinement holds,remove_close,javax.tools.StandardJavaFileManager
+arodnap_693,liquibase/liquibase,arodnap,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.InputStream
+rlfixer_697,liquibase/liquibase,rlfixer,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.FileWriter
+arodnap_697,liquibase/liquibase,arodnap,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.FileWriter
+arodnap_722,mucommander/mucommander,arodnap,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.BufferedReader
+arodnap_807,osmandapp/Osmand,arodnap,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+rlfixer_868,raphw/byte-buddy,rlfixer,incorrect,correct,FN,obligation refinement holds,partial_fix,java.net.URLClassLoader
+rlfixer_871,ratpack/ratpack,rlfixer,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.Writer
+arodnap_871,ratpack/ratpack,arodnap,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.Writer
+arodnap_957,strongbox/strongbox,arodnap,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.util.zip.ZipOutputStream
+rlfixer_968,testwhat/SmaliEx,rlfixer,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+arodnap_968,testwhat/SmaliEx,arodnap,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+arodnap_977,TooTallNate/Java-WebSocket,arodnap,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.nio.channels.SocketChannel
+arodnap_980,topjohnwu/MagiskManager,arodnap,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.FileWriter
+rlfixer_987,triplea-game/triplea,rlfixer,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.FileOutputStream
+arodnap_987,triplea-game/triplea,arodnap,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.FileOutputStream
+rlfixer_994,triplea-game/triplea,rlfixer,incorrect,correct,FN,obligation refinement holds,partial_fix,java.sql.PreparedStatement
+rlfixer_1009,typetools/checker-framework,rlfixer,incorrect,correct,FN,UNPARSED,remove_finally,java.io.FileWriter
+arodnap_1009,typetools/checker-framework,arodnap,incorrect,correct,FN,UNPARSED,remove_finally,java.io.FileWriter
+rlfixer_1025,unclebob/fitnesse,rlfixer,incorrect,correct,FN,UNPARSED,remove_finally,java.io.BufferedReader
+rlfixer_1042,vaadin/framework,rlfixer,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.InputStream
+arodnap_1059,voldemort/voldemort,arodnap,correct,incorrect,FP,PATCH_INDUCED_LIFECYCLE_INVALIDATION,correct,java.nio.channels.SocketChannel
+rlfixer_1061,wala/WALA,rlfixer,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.InputStream
+arodnap_1061,wala/WALA,arodnap,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.InputStream
+arodnap_1097,apache/flink,arodnap,correct,incorrect,FP,PATCH_INDUCED_LIFECYCLE_INVALIDATION,correct,java.io.RandomAccessFile
+arodnap_1102,apache/hadoop,arodnap,correct,incorrect,FP,PATCH_INDUCED_LIFECYCLE_INVALIDATION,correct,java.io.RandomAccessFile
+arodnap_1107,apache/hadoop,arodnap,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.DataOutputStream
+rlfixer_1112,apache/hadoop,rlfixer,incorrect,correct,FN,obligation refinement holds,remove_close,java.util.zip.GZIPOutputStream
+arodnap_1112,apache/hadoop,arodnap,incorrect,correct,FN,obligation refinement holds,remove_close,java.util.zip.GZIPOutputStream
+arodnap_1135,apache/nifi,arodnap,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.util.concurrent.ExecutorService
+rlfixer_1136,apache/nifi,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.util.concurrent.ExecutorService
+arodnap_1136,apache/nifi,arodnap,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.util.concurrent.ExecutorService
+rlfixer_1143,apache/ignite,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.util.concurrent.ExecutorService
+arodnap_1143,apache/ignite,arodnap,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.util.concurrent.ExecutorService
+amur_80,apache/dolphinscheduler,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.sql.Statement
+amur_137,dbeaver/dbeaver,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+amur_163,apache/lucene,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.Reader
+amur_165,apache/lucene,amur,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.io.RandomAccessFile
+amur_169,apache/lucene,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.sql.Connection
+amur_185,apache/lucene,amur,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.BufferedReader
+amur_195,apache/phoenix,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.util.List
+amur_212,apache/shardingsphere,amur,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.sql.Connection
+amur_257,skylot/jadx,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+amur_261,blazegraph/database,amur,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.nio.channels.AsynchronousFileChannel
+amur_274,cdapio/cdap,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStreamReader
+amur_280,cgeo/cgeo,amur,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.FileOutputStream
+amur_284,cgeo/cgeo,amur,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.FileOutputStream
+amur_291,Col-E/Recaf,amur,incorrect,correct,FN,obligation refinement holds,resource_leaked,java.util.zip.ZipFile
+amur_319,Tencent/TencentKona-8,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.BufferedReader
+amur_346,dbeaver/dbeaver,amur,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.util.stream.Stream
+amur_353,dragonwell-project/dragonwell8,amur,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.FileInputStream
+amur_355,dragonwell-project/dragonwell8,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.PrintStream
+amur_363,dragonwell-project/dragonwell8,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,sun.security.krb5.internal.UDPClient
+amur_364,dragonwell-project/dragonwell8,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.PrintStream
+amur_396,elastic/elasticsearch,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.InputStream
+amur_422,EvoSuite/evosuite,amur,incorrect,correct,FN,obligation refinement holds,resource_leaked,java.util.zip.GZIPOutputStream
+amur_429,facebookarchive/nailgun,amur,incorrect,correct,FN,obligation refinement holds,resource_leaked,java.io.InputStream
+amur_482,h2database/h2database,amur,correct,incorrect,FP,PATCH_INDUCED_LIFECYCLE_INVALIDATION,correct,java.nio.channels.FileChannel
+amur_489,hazelcast/hazelcast,amur,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.nio.channels.Selector
+amur_496,hibernate/hibernate-orm,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+amur_511,hyphanet/fred,amur,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.OutputStream
+amur_513,hyphanet/fred,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.InputStream
+amur_523,hyphanet/fred,amur,incorrect,correct,FN,obligation refinement holds,resource_leaked,java.io.DataInputStream
+amur_527,hyphanet/fred,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.FileInputStream
+amur_572,jenkinsci/jenkins,amur,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.FileInputStream
+amur_585,jenkinsci/jenkins,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.Writer
+amur_586,jenkinsci/jenkins,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.net.Socket
+amur_587,jenkinsci/jenkins,amur,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.BufferedReader
+amur_591,jenkinsci/jenkins,amur,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.io.InputStream
+amur_592,jenkinsci/jenkins,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.BufferedReader
+amur_611,JetBrains/JetBrainsRuntime,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.Reader
+amur_629,JetBrains/JetBrainsRuntime,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.OutputStream
+amur_692,liquibase/liquibase,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.ByteArrayInputStream
+amur_693,liquibase/liquibase,amur,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.InputStream
+amur_722,mucommander/mucommander,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.BufferedReader
+amur_748,nutzam/nutz,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.sql.PreparedStatement
+amur_766,opensearch-project/OpenSearch,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.InputStream
+amur_783,oracle/graal,amur,correct,incorrect,FP,ORPHANED_OBLIGATION,correct,java.net.Socket
+amur_807,osmandapp/Osmand,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+amur_868,raphw/byte-buddy,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.net.URLClassLoader
+amur_871,ratpack/ratpack,amur,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.Writer
+amur_940,spring-projects/spring-integration,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.InputStream
+amur_941,spring-projects/spring-integration,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.nio.channels.SocketChannel
+amur_961,syndesisio/syndesis,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+amur_965,TEAMMATES/teammates,amur,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.FileOutputStream
+amur_968,testwhat/SmaliEx,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+amur_977,TooTallNate/Java-WebSocket,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.nio.channels.SocketChannel
+amur_980,topjohnwu/MagiskManager,amur,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.FileWriter
+amur_987,triplea-game/triplea,amur,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.FileOutputStream
+amur_1009,typetools/checker-framework,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.FileWriter
+amur_1036,vaadin/framework,amur,incorrect,correct,FN,obligation refinement holds,resource_leaked,java.io.PrintWriter
+amur_1042,vaadin/framework,amur,incorrect,correct,FN,obligation refinement holds,resource_leaked,java.io.InputStream
+amur_1061,wala/WALA,amur,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.InputStream
+amur_1062,wala/WALA,amur,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.io.DataOutputStream
+amur_1066,wala/WALA,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+amur_1102,apache/hadoop,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.RandomAccessFile
+amur_1105,apache/hadoop,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.FileInputStream
+amur_1113,apache/hadoop,amur,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.io.OutputStream
+amur_1123,apache/storm,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.util.stream.Stream
+amur_1127,apache/nifi,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.FileInputStream
+amur_1131,apache/nifi,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+amur_1134,apache/nifi,amur,correct,incorrect,FP,PATCH_INDUCED_LIFECYCLE_INVALIDATION,correct,java.io.OutputStream

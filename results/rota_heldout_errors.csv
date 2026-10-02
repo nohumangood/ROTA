@@ -1,0 +1,49 @@
+patch_id,project,tool,gt,pred,error_type,reason,failure_family,resource_type
+rlfixer_31,Alluxio/alluxio,rlfixer,incorrect,correct,FN,UNPARSED,remove_finally,java.nio.ByteBuffer
+rlfixer_32,Alluxio/alluxio,rlfixer,incorrect,correct,FN,obligation refinement holds,remove_close,java.io.FileOutputStream
+arodnap_116,apache/hbase,arodnap,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.OutputStream
+arodnap_130,apache/hbase,arodnap,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.util.concurrent.ExecutorService
+arodnap_321,davidmoten/rxjava-jdbc,arodnap,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.sql.Connection
+rlfixer_332,dnsjava/dnsjava,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,remove_finally,java.nio.channels.DatagramChannel
+rlfixer_335,docker-java/docker-java,rlfixer,incorrect,correct,FN,UNPARSED,remove_finally,java.io.InputStream
+rlfixer_336,docker-java/docker-java,rlfixer,incorrect,correct,FN,UNPARSED,remove_finally,java.io.InputStream
+rlfixer_414,elastic/logstash,rlfixer,incorrect,correct,FN,obligation refinement holds,partial_fix,java.nio.channels.FileLock
+arodnap_414,elastic/logstash,arodnap,correct,incorrect,FP,PATCH_INDUCED_LIFECYCLE_INVALIDATION,correct,java.nio.channels.FileLock
+arodnap_501,HubSpot/Singularity,arodnap,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.Writer
+arodnap_502,HubSpot/Singularity,arodnap,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.Writer
+rlfixer_529,iBotPeaches/Apktool,rlfixer,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.util.jar.InputStream
+rlfixer_724,NanoHttpd/nanohttpd,rlfixer,incorrect,correct,FN,obligation refinement holds,remove_close,java.io.InputStream
+rlfixer_728,neo4j/neo4j,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.io.PrintWriter
+rlfixer_769,opensourceBIM/BIMserver,rlfixer,incorrect,correct,FN,obligation refinement holds,remove_close,java.io.InputStream
+arodnap_769,opensourceBIM/BIMserver,arodnap,incorrect,correct,FN,obligation refinement holds,remove_close,java.io.InputStream
+arodnap_841,Pi4J/pi4j-v1,arodnap,correct,incorrect,FP,PATCH_INDUCED_LIFECYCLE_INVALIDATION,correct,java.io.InputStreamReader
+arodnap_848,playframework/play1,arodnap,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.InputStream
+arodnap_859,prometheus/jmx_exporter,arodnap,incorrect,correct,FN,UNPARSED,remove_finally,javax.management.remote.JMXConnector
+rlfixer_938,apache/jmeter,rlfixer,incorrect,abstain,FN,NO_OBLIGATION_MODELLED,partial_fix,java.io.InputStream
+rlfixer_1118,apache/zookeeper,rlfixer,correct,incorrect,FP,PATCH_INDUCED_LIFECYCLE_INVALIDATION,correct,java.io.InputStream
+rlfixer_1138,apache/iceberg,rlfixer,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.util.concurrent.ScheduledExecutorService
+arodnap_1138,apache/iceberg,arodnap,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.util.concurrent.ScheduledExecutorService
+amur_22,Alluxio/alluxio,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.OutputStream
+amur_66,apache/cloudstack,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.OutputStreamWriter
+amur_69,apache/cloudstack,amur,correct,incorrect,FP,PATCH_INDUCED_LIFECYCLE_INVALIDATION,correct,java.nio.channels.SocketChannel
+amur_70,apache/cloudstack,amur,incorrect,correct,FN,obligation refinement holds,reassignment_leak,java.io.InputStream
+amur_116,apache/hbase,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.OutputStream
+amur_262,BlueMap-Minecraft/BlueMap,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.OutputStream
+amur_332,dnsjava/dnsjava,amur,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.nio.channels.DatagramChannel
+amur_335,docker-java/docker-java,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+amur_336,docker-java/docker-java,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+amur_386,ehcache/ehcache3,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.io.RandomAccessFile
+amur_414,elastic/logstash,amur,correct,incorrect,FP,PATCH_INDUCED_LIFECYCLE_INVALIDATION,correct,java.nio.channels.FileLock
+amur_416,Esri/geometry-api-java,amur,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.Reader
+amur_419,ethereum/ethereumj,amur,incorrect,correct,FN,obligation refinement holds,scope_error,java.io.FileWriter
+amur_501,HubSpot/Singularity,amur,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.Writer
+amur_502,HubSpot/Singularity,amur,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.Writer
+amur_529,iBotPeaches/Apktool,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.util.jar.InputStream
+amur_535,INRIA/spoon,amur,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.ByteArrayOutputStream
+amur_637,jline/jline3,amur,correct,incorrect,FP,TARGET_OBLIGATION_NOT_DISCHARGED,correct,java.io.InputStream
+amur_752,ontop/ontop,amur,correct,incorrect,FP,TARGET_RELEASE_NOT_EXCEPTION_SAFE,correct,java.sql.ResultSet
+amur_815,payara/Payara,amur,correct,incorrect,FP,NO_REPAIRING_TRANSFORMATION,correct,java.io.ByteArrayOutputStream
+amur_816,payara/Payara,amur,incorrect,correct,FN,obligation refinement holds,resource_leaked,java.io.OutputStream
+amur_823,payara/Payara,amur,incorrect,correct,FN,obligation refinement holds,resource_leaked,java.io.BufferedWriter
+amur_956,strapdata/elassandra,amur,correct,incorrect,FP,PATCH_INTRODUCED_NEW_OBLIGATION,correct,java.io.InputStream
+amur_1138,apache/iceberg,amur,correct,abstain,FN,NO_OBLIGATION_MODELLED,correct,java.util.concurrent.ScheduledExecutorService
